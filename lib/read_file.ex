@@ -13,7 +13,7 @@ defmodule ReadFile do
     File.write(file_name, content)
   end
 
-  @@doc """
+  @doc """
     Read a File by the name
 
     ## Parameters
